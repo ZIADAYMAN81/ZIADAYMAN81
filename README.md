@@ -13,6 +13,9 @@ I build and evaluate ML systems end to end, from data cleaning and leakage-safe 
 | [**SaveFlight**](https://github.com/ZIADAYMAN81/saveflight-secure-airport-platform) | Secure full-stack airport platform: React portal, FastAPI + PostgreSQL API with AES-256-GCM encryption, RBAC for 5 roles, 2FA, signed QR boarding passes; **85 back-end tests** | React, JavaScript, FastAPI, PostgreSQL, Docker, Nginx |
 | [**Hairify Web App**](https://github.com/ZIADAYMAN81/hairify-web-app) | Physics-driven HTML/CSS/JavaScript UI (Matter.js) over a Flask API with a from-scratch NumPy neural network and procedural hairstyle overlays | HTML, CSS, JavaScript, Flask, NumPy |
 | [**Fraud Detection + MLflow**](https://github.com/ZIADAYMAN81/fraud-detection-mlflow) | ~300K transactions with 2.2% fraud: bagging reached **0.83 F1 / 0.975 ROC-AUC**, every run tracked in MLflow | scikit-learn, imbalanced-learn, MLflow |
+| [**EuroSAT Satellite Classification**](https://github.com/ZIADAYMAN81/eurosat-multispectral-classification) | 13-band Sentinel-2 land-cover classification: compact CNN at **98.7% test accuracy**, 13.5 points above a deep fully connected network with 370x more parameters | PyTorch, rasterio |
+| [**Named Entity Recognition**](https://github.com/ZIADAYMAN81/ner-bilstm-skipgram) | BiLSTM with custom Skip-gram embeddings on CoNLL-2003; word-shape features raised entity F1 from **0.69 to 0.78** | TensorFlow/Keras, gensim |
+| [**Social Distancing Monitor**](https://github.com/ZIADAYMAN81/social-distancing-monitor-yolov8) | Real-time YOLOv8 person detection with perspective-aware distance limits, CLI and logging; ~12 FPS on CPU | YOLOv8, OpenCV |
 | [**Multi-Agent Robot Navigation**](https://github.com/ZIADAYMAN81/multi-agent-robot-navigation) | 4 Actor–Critic agents in a Pygame library, with inter-agent communication tuned by PSO | TensorFlow/Keras, Pygame |
 | [**SVHN Lightweight CNNs**](https://github.com/ZIADAYMAN81/svhn-lightweight-cnn-benchmark) | 9 MobileNetV3, ShuffleNetV2 and SqueezeNet variants compared on accuracy vs. training time | PyTorch, torchvision |
 | [**Used Car Price Prediction**](https://github.com/ZIADAYMAN81/used-car-price-prediction) | Feature engineering on messy listings, tuned XGBoost to **R² 0.90** | pandas, XGBoost |
@@ -24,7 +27,7 @@ I build and evaluate ML systems end to end, from data cleaning and leakage-safe 
 **Web:** React · FastAPI · Flask · REST APIs · Docker · Nginx<br>
 **ML / DL:** PyTorch · TensorFlow/Keras · scikit-learn · XGBoost · Hugging Face Transformers · timm · Optuna<br>
 **Data & MLOps:** pandas · NumPy · matplotlib · seaborn · MLflow · Jupyter · Git<br>
-**CV & LLMs:** OpenCV · FAISS · LLM APIs (Groq / LLaMA-3.3)<br>
+**CV & NLP:** OpenCV · YOLOv8 · FAISS · Word2Vec · LLM APIs (Groq / LLaMA-3.3)<br>
 **Databases:** SQL Server (T-SQL)
 
 ### 📫 Contact
