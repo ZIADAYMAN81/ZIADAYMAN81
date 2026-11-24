@@ -12,6 +12,9 @@ I build and evaluate ML systems end to end, from data cleaning and leakage-safe 
 | [**Hairify**](https://github.com/ZIADAYMAN81/hairify) | Graduation project: face-shape classification (EfficientNet-B3, **72.8% acc, 0.92 AUC**) driving hairstyle recommendations and a virtual try-on | PyTorch, timm, OpenCV, Optuna, FAISS |
 | [**SaveFlight**](https://github.com/ZIADAYMAN81/saveflight-secure-airport-platform) | Secure full-stack airport platform: React portal, FastAPI + PostgreSQL API with AES-256-GCM encryption, RBAC for 5 roles, 2FA, signed QR boarding passes; **85 back-end tests** | React, JavaScript, FastAPI, PostgreSQL, Docker, Nginx |
 | [**Hairify Web App**](https://github.com/ZIADAYMAN81/hairify-web-app) | Physics-driven HTML/CSS/JavaScript UI (Matter.js) over a Flask API with a from-scratch NumPy neural network and procedural hairstyle overlays | HTML, CSS, JavaScript, Flask, NumPy |
+| [**Egypt BMW Market Analysis**](https://github.com/ZIADAYMAN81/egypt-bmw-market-analysis) | Polite web scraper (828 listings), cleaning pipeline, 8.5%/year depreciation, GPU XGBoost price model with **7.1% median error** | requests, BeautifulSoup, XGBoost |
+| [**World Bank Poverty Analysis**](https://github.com/ZIADAYMAN81/world-bank-poverty-analysis) | World Bank API pipeline (217 countries, 1990-2024), k-means segmentation, Egypt case study, **Streamlit dashboard** | pandas, Streamlit, Plotly |
+| [**Hotel Cancellation Prediction**](https://github.com/ZIADAYMAN81/hotel-cancellation-prediction) | 119K bookings, leakage-safe features, time-based test: **0.887 ROC-AUC** with GPU XGBoost and SHAP | XGBoost (CUDA), scikit-learn |
 | [**Fraud Detection + MLflow**](https://github.com/ZIADAYMAN81/fraud-detection-mlflow) | ~300K transactions with 2.2% fraud: bagging reached **0.83 F1 / 0.975 ROC-AUC**, every run tracked in MLflow | scikit-learn, imbalanced-learn, MLflow |
 | [**EuroSAT Satellite Classification**](https://github.com/ZIADAYMAN81/eurosat-multispectral-classification) | 13-band Sentinel-2 land-cover classification: compact CNN at **98.7% test accuracy**, 13.5 points above a deep fully connected network with 370x more parameters | PyTorch, rasterio |
 | [**Named Entity Recognition**](https://github.com/ZIADAYMAN81/ner-bilstm-skipgram) | BiLSTM with custom Skip-gram embeddings on CoNLL-2003; word-shape features raised entity F1 from **0.69 to 0.78** | TensorFlow/Keras, gensim |
@@ -27,7 +30,7 @@ I build and evaluate ML systems end to end, from data cleaning and leakage-safe 
 **Languages:** Python · SQL · Java · JavaScript · HTML · CSS · C++<br>
 **Web:** React · FastAPI · Flask · REST APIs · Docker · Nginx<br>
 **ML / DL:** PyTorch · TensorFlow/Keras · scikit-learn · XGBoost · Hugging Face Transformers · timm · Optuna<br>
-**Data & MLOps:** pandas · NumPy · matplotlib · seaborn · MLflow · Jupyter · Git<br>
+**Data & MLOps:** pandas · NumPy · web scraping · Streamlit · Plotly · matplotlib · seaborn · MLflow · Jupyter · Git<br>
 **CV & NLP:** OpenCV · YOLOv8 · FAISS · Word2Vec · LLM APIs (Groq / LLaMA-3.3)<br>
 **Databases:** SQL Server (T-SQL)
 
