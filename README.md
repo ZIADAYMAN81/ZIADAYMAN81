@@ -1,6 +1,6 @@
 ## Hi, I'm Ziad Ayman 👋
 
-**Computer Science graduate (Artificial Intelligence), The British University in Egypt, 2026**
+**Computer Science graduate (Artificial Intelligence), The British University in Egypt, 2026**<br>
 Machine learning · Deep learning · Python development · Cairo, Egypt
 
 I build and evaluate ML systems end to end, from data cleaning and leakage-safe pipelines to fine-tuning deep networks and reporting honestly on what didn't work. I'm looking for an **entry-level AI/ML engineering, data or Python development role**.
@@ -18,10 +18,10 @@ I build and evaluate ML systems end to end, from data cleaning and leakage-safe 
 | [**Java Distributed Systems**](https://github.com/ZIADAYMAN81/java-rmi-distributed-systems) | RMI publish–subscribe with remote callbacks; socket-based coordinator search | Java, RMI, Swing |
 
 ### 🛠️ Tech
-**Languages:** Python · SQL · Java · C++
-**ML / DL:** PyTorch · TensorFlow/Keras · scikit-learn · XGBoost · Hugging Face Transformers · timm · Optuna
-**Data & MLOps:** pandas · NumPy · matplotlib · seaborn · MLflow · Jupyter · Git
-**CV & LLMs:** OpenCV · FAISS · LLM APIs (Groq / LLaMA-3.3)
+**Languages:** Python · SQL · Java · C++<br>
+**ML / DL:** PyTorch · TensorFlow/Keras · scikit-learn · XGBoost · Hugging Face Transformers · timm · Optuna<br>
+**Data & MLOps:** pandas · NumPy · matplotlib · seaborn · MLflow · Jupyter · Git<br>
+**CV & LLMs:** OpenCV · FAISS · LLM APIs (Groq / LLaMA-3.3)<br>
 **Databases:** SQL Server (T-SQL)
 
 ### 📫 Contact
