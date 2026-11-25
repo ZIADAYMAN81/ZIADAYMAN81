@@ -40,4 +40,4 @@ I build and evaluate ML systems end to end, from data cleaning and leakage-safe 
 **Databases:** SQL Server (T-SQL)
 
 ### 📫 Contact
-ziadayman81@gmail.com
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-ziad--ayman--ai-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ziad-ayman-ai/) [![Email](https://img.shields.io/badge/Email-ziadayman81%40gmail.com-D14836?logo=gmail&logoColor=white)](mailto:ziadayman81@gmail.com)
