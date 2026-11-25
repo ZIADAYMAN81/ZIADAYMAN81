@@ -11,6 +11,10 @@ I build and evaluate ML systems end to end, from data cleaning and leakage-safe 
 |---|---|---|
 | [**Hairify**](https://github.com/ZIADAYMAN81/hairify) | Graduation project: face-shape classification (EfficientNet-B3, **72.8% acc, 0.92 AUC**) driving hairstyle recommendations and a virtual try-on | PyTorch, timm, OpenCV, Optuna, FAISS |
 | [**SaveFlight**](https://github.com/ZIADAYMAN81/saveflight-secure-airport-platform) | Secure full-stack airport platform: React portal, FastAPI + PostgreSQL API with AES-256-GCM encryption, RBAC for 5 roles, 2FA, signed QR boarding passes; **85 back-end tests** | React, JavaScript, FastAPI, PostgreSQL, Docker, Nginx |
+| [**Distributed Banking (Java RMI)**](https://github.com/ZIADAYMAN81/distributed-banking-rmi) | Accounts sharded across worker servers; every transfer is a two-phase-commit transaction with deadlock-free locking. **42 tests**, including 4,000 concurrent transfers with money exactly conserved | Java, RMI, concurrency, Swing |
+| [**Online Auction System**](https://github.com/ZIADAYMAN81/online-auction-system) | Swing marketplace with bidding rules, balance holds, automatic settlement, PBKDF2 passwords and crash-safe saves; **33 tests** | Java, Swing |
+| [**Connect-6 Game AI**](https://github.com/ZIADAYMAN81/connect6-ai) | Alpha-beta search that plans whole two-stone turns; depth 2 won **20/20** benchmark games against weaker AIs | Python, NumPy, pygame |
+| [**C++ Search Algorithms**](https://github.com/ZIADAYMAN81/cpp-search-algorithms) | Non-recursive N-Queens recommender with pre-placed queens, and a memoised game-tree solver; **36 tests**, warning-free at /W4 | C++17, CMake |
 | [**Hairify Web App**](https://github.com/ZIADAYMAN81/hairify-web-app) | Physics-driven HTML/CSS/JavaScript UI (Matter.js) over a Flask API with a from-scratch NumPy neural network and procedural hairstyle overlays | HTML, CSS, JavaScript, Flask, NumPy |
 | [**Egypt BMW Market Analysis**](https://github.com/ZIADAYMAN81/egypt-bmw-market-analysis) | Polite web scraper (828 listings), cleaning pipeline, 8.5%/year depreciation, GPU XGBoost price model with **7.1% median error** | requests, BeautifulSoup, XGBoost |
 | [**World Bank Poverty Analysis**](https://github.com/ZIADAYMAN81/world-bank-poverty-analysis) | World Bank API pipeline (217 countries, 1990-2024), k-means segmentation, Egypt case study, **Streamlit dashboard** | pandas, Streamlit, Plotly |
@@ -32,6 +36,7 @@ I build and evaluate ML systems end to end, from data cleaning and leakage-safe 
 **ML / DL:** PyTorch · TensorFlow/Keras · scikit-learn · XGBoost · Hugging Face Transformers · timm · Optuna<br>
 **Data & MLOps:** pandas · NumPy · web scraping · Streamlit · Plotly · matplotlib · seaborn · MLflow · Jupyter · Git<br>
 **CV & NLP:** OpenCV · YOLOv8 · FAISS · Word2Vec · LLM APIs (Groq / LLaMA-3.3)<br>
+**Software engineering:** Java RMI · concurrency · Swing · CMake · automated testing<br>
 **Databases:** SQL Server (T-SQL)
 
 ### 📫 Contact
