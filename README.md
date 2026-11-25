@@ -10,6 +10,7 @@ I build and evaluate ML systems end to end, from data cleaning and leakage-safe 
 | Project | What it is | Stack |
 |---|---|---|
 | [**Hairify**](https://github.com/ZIADAYMAN81/hairify) | Graduation project: EfficientNet-B3 face-shape classifier, **79.2% accuracy, 0.947 AUC** on the official test set (up from 73.0% after fixing a face-cropping bug); FastAPI service on ONNX Runtime in Docker, 19 ms per request on CPU | PyTorch, ONNX Runtime, FastAPI, Docker |
+| [**RAG Docs Assistant**](https://github.com/ZIADAYMAN81/rag-docs-assistant) | Local retrieval-augmented question answering over the scikit-learn User Guide, with cited answers and refusals. Keyword, embedding and hybrid search compared on 200 questions with paired tests: hybrid finds the right passage in the top 5 for **95%**; refuses **20/20** off-topic questions | Ollama (qwen2.5, nomic-embed-text), BM25, FastAPI, Docker |
 | [**SaveFlight**](https://github.com/ZIADAYMAN81/saveflight-secure-airport-platform) | Secure full-stack airport platform: React portal, FastAPI + PostgreSQL API with AES-256-GCM encryption, RBAC for 5 roles, 2FA, signed QR boarding passes; **85 back-end tests** | React, JavaScript, FastAPI, PostgreSQL, Docker, Nginx |
 | [**Distributed Banking (Java RMI)**](https://github.com/ZIADAYMAN81/distributed-banking-rmi) | Accounts sharded across worker servers; every transfer is a two-phase-commit transaction with deadlock-free locking. **42 tests**, including 4,000 concurrent transfers with money exactly conserved | Java, RMI, concurrency, Swing |
 | [**Online Auction System**](https://github.com/ZIADAYMAN81/online-auction-system) | Swing marketplace with bidding rules, balance holds, automatic settlement, PBKDF2 passwords and crash-safe saves; **33 tests** | Java, Swing |
@@ -37,7 +38,7 @@ I build and evaluate ML systems end to end, from data cleaning and leakage-safe 
 **Web & deployment:** React · FastAPI · Flask · REST APIs · Docker · Nginx · ONNX Runtime<br>
 **ML / DL:** PyTorch · TensorFlow/Keras · scikit-learn · XGBoost · Hugging Face Transformers · timm · Optuna<br>
 **Data & MLOps:** pandas · NumPy · web scraping · Streamlit · Plotly · matplotlib · seaborn · MLflow · Jupyter · Git<br>
-**CV & NLP:** OpenCV · YOLOv8 · FAISS · Word2Vec · LLM APIs (Groq / LLaMA-3.3)<br>
+**CV & NLP:** OpenCV · YOLOv8 · FAISS · Word2Vec · RAG (BM25, embeddings, hybrid search) · Ollama · LLM APIs (Groq / LLaMA-3.3)<br>
 **Software engineering:** Java RMI · concurrency · Swing · CMake · automated testing<br>
 **Databases:** SQL Server (T-SQL)
 
