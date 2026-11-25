@@ -9,7 +9,7 @@ I build and evaluate ML systems end to end, from data cleaning and leakage-safe 
 
 | Project | What it is | Stack |
 |---|---|---|
-| [**Hairify**](https://github.com/ZIADAYMAN81/hairify) | Graduation project: face-shape classification (EfficientNet-B3, **72.8% acc, 0.92 AUC**) driving hairstyle recommendations and a virtual try-on | PyTorch, timm, OpenCV, Optuna, FAISS |
+| [**Hairify**](https://github.com/ZIADAYMAN81/hairify) | Graduation project: EfficientNet-B3 face-shape classifier, **79.2% accuracy, 0.947 AUC** on the official test set (up from 73.0% after fixing a face-cropping bug); FastAPI service on ONNX Runtime in Docker, 19 ms per request on CPU | PyTorch, ONNX Runtime, FastAPI, Docker |
 | [**SaveFlight**](https://github.com/ZIADAYMAN81/saveflight-secure-airport-platform) | Secure full-stack airport platform: React portal, FastAPI + PostgreSQL API with AES-256-GCM encryption, RBAC for 5 roles, 2FA, signed QR boarding passes; **85 back-end tests** | React, JavaScript, FastAPI, PostgreSQL, Docker, Nginx |
 | [**Distributed Banking (Java RMI)**](https://github.com/ZIADAYMAN81/distributed-banking-rmi) | Accounts sharded across worker servers; every transfer is a two-phase-commit transaction with deadlock-free locking. **42 tests**, including 4,000 concurrent transfers with money exactly conserved | Java, RMI, concurrency, Swing |
 | [**Online Auction System**](https://github.com/ZIADAYMAN81/online-auction-system) | Swing marketplace with bidding rules, balance holds, automatic settlement, PBKDF2 passwords and crash-safe saves; **33 tests** | Java, Swing |
@@ -34,7 +34,7 @@ I build and evaluate ML systems end to end, from data cleaning and leakage-safe 
 
 ### 🛠️ Tech
 **Languages:** Python · SQL · Java · JavaScript · HTML · CSS · C++<br>
-**Web:** React · FastAPI · Flask · REST APIs · Docker · Nginx<br>
+**Web & deployment:** React · FastAPI · Flask · REST APIs · Docker · Nginx · ONNX Runtime<br>
 **ML / DL:** PyTorch · TensorFlow/Keras · scikit-learn · XGBoost · Hugging Face Transformers · timm · Optuna<br>
 **Data & MLOps:** pandas · NumPy · web scraping · Streamlit · Plotly · matplotlib · seaborn · MLflow · Jupyter · Git<br>
 **CV & NLP:** OpenCV · YOLOv8 · FAISS · Word2Vec · LLM APIs (Groq / LLaMA-3.3)<br>
